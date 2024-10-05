@@ -1,0 +1,12 @@
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\bin\Debug\net8.0\CVirtual.CrossCutting.deps.json
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\bin\Debug\net8.0\CVirtual.CrossCutting.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\bin\Debug\net8.0\CVirtual.CrossCutting.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.csproj.AssemblyReference.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.AssemblyInfoInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.AssemblyInfo.cs
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.csproj.CoreCompileInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\refint\CVirtual.CrossCutting.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\CVirtual.CrossCutting.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.CrossCutting\obj\Debug\net8.0\ref\CVirtual.CrossCutting.dll

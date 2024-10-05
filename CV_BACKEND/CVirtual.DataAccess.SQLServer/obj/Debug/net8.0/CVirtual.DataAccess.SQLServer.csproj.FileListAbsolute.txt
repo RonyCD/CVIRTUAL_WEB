@@ -1,0 +1,14 @@
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\bin\Debug\net8.0\CVirtual.DataAccess.SQLServer.deps.json
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\bin\Debug\net8.0\CVirtual.DataAccess.SQLServer.runtimeconfig.json
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\bin\Debug\net8.0\CVirtual.DataAccess.SQLServer.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\bin\Debug\net8.0\CVirtual.DataAccess.SQLServer.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.csproj.AssemblyReference.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.AssemblyInfoInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.AssemblyInfo.cs
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.csproj.CoreCompileInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\refint\CVirtual.DataAccess.SQLServer.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\CVirtual.DataAccess.SQLServer.genruntimeconfig.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.DataAccess.SQLServer\obj\Debug\net8.0\ref\CVirtual.DataAccess.SQLServer.dll

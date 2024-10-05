@@ -1,0 +1,7 @@
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.csproj.AssemblyReference.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.AssemblyInfoInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.AssemblyInfo.cs
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.csproj.CoreCompileInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Api\obj\Debug\net8.0\CVirtual.Api.MvcApplicationPartsAssemblyInfo.cache

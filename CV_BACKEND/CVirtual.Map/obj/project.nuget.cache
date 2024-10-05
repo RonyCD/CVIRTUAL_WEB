@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "LWqTGURaa+TqkS/wLhHUiMpe+VLahvhS0dQUDPBh5RIr02ASCeCQ8Vjux377bG7XHOuHbyHT9x+YhUrrjzIh6A==",
+  "success": true,
+  "projectFilePath": "D:\\00.Repo_CV_WEB\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Map\\CVirtual.Map.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rocam\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\rocam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocam\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocam\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocam\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

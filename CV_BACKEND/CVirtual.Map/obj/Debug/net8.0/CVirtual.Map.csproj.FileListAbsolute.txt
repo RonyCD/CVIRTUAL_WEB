@@ -1,0 +1,12 @@
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\bin\Debug\net8.0\CVirtual.Map.deps.json
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\bin\Debug\net8.0\CVirtual.Map.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\bin\Debug\net8.0\CVirtual.Map.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.csproj.AssemblyReference.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.GeneratedMSBuildEditorConfig.editorconfig
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.AssemblyInfoInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.AssemblyInfo.cs
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.csproj.CoreCompileInputs.cache
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\refint\CVirtual.Map.dll
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\CVirtual.Map.pdb
+D:\00.APP_CVIRTUAL\01.APP\slnCVirtual\CVirtual.Map\obj\Debug\net8.0\ref\CVirtual.Map.dll
