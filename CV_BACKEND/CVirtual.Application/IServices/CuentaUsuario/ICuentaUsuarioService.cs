@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CVirtual.Application.IServices
+namespace CVirtual.Application.IServices.CuentaUsuario
 {
     public interface ICuentaUsuarioService
     {
-        Task<BaseResponse<IniciarSesionResponse>> IniciarSesion(IniciarSesionRequest _Request);        
+        Task<BaseResponse<IniciarSesionResponse>> IniciarSesion(IniciarSesionRequest _Request);
 
     }
 }

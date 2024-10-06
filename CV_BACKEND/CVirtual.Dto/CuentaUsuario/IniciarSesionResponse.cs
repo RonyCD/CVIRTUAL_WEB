@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CVirtual.Dto.JsonWebToken;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace CVirtual.Dto.CuentaUsuario
         public string ApPaterno { get; set; }
         public string ApMaterno { get; set; }
         public string Correo { get; set; }
-        public string? Mensaje { get; set; }
+        public JwtTokenResponse JwtToken { get; set; }
 
     }
 }

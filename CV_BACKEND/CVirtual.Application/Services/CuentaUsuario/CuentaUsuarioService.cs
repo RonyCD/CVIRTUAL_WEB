@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
-using CVirtual.Application.IServices;
+using CVirtual.Application.IServices.CuentaUsuario;
+using CVirtual.Application.IServices.JsonWebToken;
 using CVirtual.DataAccess.SQLServer.IQueries;
 using CVirtual.Domain.Entities.Comun;
 using CVirtual.Domain.Entities.CuentaUsuario;
 using CVirtual.Dto.Base;
 using CVirtual.Dto.CuentaUsuario;
+using CVirtual.Dto.JsonWebToken;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,20 +14,22 @@ using System.ServiceModel.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CVirtual.Application.Services
+namespace CVirtual.Application.Services.CuentaUsuario
 {
     public class CuentaUsuarioService : ICuentaUsuarioService
     {
         private readonly ICuentaUsuarioQuery _ICuentaUsuarioQuery;
+        private readonly IJsonWebTokenService _JsonWebTokenService;
         private readonly IMapper _IMapper;
 
-        public CuentaUsuarioService(ICuentaUsuarioQuery iCuentaUsuarioQuery, IMapper iMapper)
+        public CuentaUsuarioService(ICuentaUsuarioQuery iCuentaUsuarioQuery, IJsonWebTokenService iJsonWebTokenService, IMapper iMapper)
         {
             _ICuentaUsuarioQuery = iCuentaUsuarioQuery;
+            _JsonWebTokenService = iJsonWebTokenService;
             _IMapper = iMapper;
         }
 
-        
+
         public async Task<BaseResponse<IniciarSesionResponse>> IniciarSesion(IniciarSesionRequest _Request)
         {
             try
@@ -40,6 +44,12 @@ namespace CVirtual.Application.Services
                         Message = "Usuario no encontrado o credenciales incorrectas"
                     };
                 }
+
+                JwtInformacionResponse _JwtInformacionResponse = new JwtInformacionResponse();
+                _JwtInformacionResponse.Id = usuario.Id;
+
+                // Genera y asigna TOKEN
+                usuario.JwtToken = await _JsonWebTokenService.CrearToken(_JwtInformacionResponse);
 
                 return new BaseResponse<IniciarSesionResponse>
                 {

@@ -1,4 +1,4 @@
-﻿using CVirtual.Application.IServices;
+﻿using CVirtual.Application.IServices.CuentaUsuario;
 using CVirtual.Application.Services;
 using CVirtual.Dto.CuentaUsuario;
 using Microsoft.AspNetCore.Http;
