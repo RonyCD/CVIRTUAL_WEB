@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVirtual.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3825b8e689a97b6da94520cdb2b56f1426f670c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVirtual.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVirtual.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

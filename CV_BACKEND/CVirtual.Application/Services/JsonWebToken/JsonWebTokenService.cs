@@ -24,43 +24,10 @@ namespace CVirtual.Application.Services.JsonWebToken
             _TokenConfigurations = tokenConfigurations.Value;
         }
 
-
-        public Task<JwtTokenResponse> CrearToken2(IniciarSesionResponse usuario)
-        {
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_TokenConfigurations.SecretKey));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
-            {
-            new Claim(JwtRegisteredClaimNames.Sub, usuario.Nombres),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
-            new Claim(ClaimTypes.Role, usuario.IdRol.ToString())
-            };
-
-            var expiration = DateTime.UtcNow.AddMinutes(_TokenConfigurations.AccessTokenExpiration);
-
-            var token = new JwtSecurityToken(
-                issuer: _TokenConfigurations.Issuer,
-                audience: _TokenConfigurations.Audience,
-                claims: claims,
-                expires: expiration,
-                signingCredentials: creds);
-
-            return Task.FromResult(new JwtTokenResponse
-            {
-                Token = new JwtSecurityTokenHandler().WriteToken(token),
-                ExpiraEn = expiration,
-                Tipo = "Bearer"
-            });
-        }
-
-
         public async Task<JwtTokenResponse> CrearToken(JwtInformacionResponse _JwtInformacionResponse)
         {
             return BuildAccessToken(_JwtInformacionResponse);
         }
-
 
         private JwtTokenResponse BuildAccessToken(JwtInformacionResponse _JwtInformacionResponse)
         {
@@ -89,7 +56,6 @@ namespace CVirtual.Application.Services.JsonWebToken
 
             return _JwtTokenResponse;
         }
-
 
         private IEnumerable<Claim> GetClaims(JwtInformacionResponse _JwtInformacionResponse)
         {
