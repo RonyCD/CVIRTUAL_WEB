@@ -3,6 +3,10 @@
 using Autofac.Extensions.DependencyInjection;
 using Autofac;
 using CVirtual.CrossCutting;
+using CVirtual.Application.Utils;
+using CVirtual.Api.Extensions;
+using AutoMapper;
+using CVirtual.Map;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -16,18 +20,16 @@ builder.Services.AddSwaggerGen();
 
 
 //MAPPER
-/*
+
 var mappingConfig = new MapperConfiguration(mc =>
 {
-    mc.AddProfile(new ComunMap());
-    mc.AddProfile(new PersonaMap());
-    mc.AddProfile(new PostulanteMap());
-    mc.AddProfile(new HistoricoPersonaMap());
+    mc.AddProfile(new CuentaUsuarioMap());
+    
 });
 
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
-*/
+
 
 
 //CORS
@@ -51,18 +53,18 @@ builder.Services.AddCors(options =>
     );
 });
 
-//builder.Services.AddAppInsight(configuration)
-//                .AddCustomMVC(configuration)
-//                .AddCustomSwagger(configuration)
-//                .AddCustomHealthChecks(configuration)
-//                .AddCustomSecuritySwagger(configuration)
-//                .AddCustomIntegrations(configuration);
+builder.Services.AddAppInsight(configuration)
+                .AddCustomMVC(configuration)
+                .AddCustomSwagger(configuration)
+                .AddCustomHealthChecks(configuration)
+                .AddCustomSecuritySwagger(configuration)
+                .AddCustomIntegrations(configuration);
 
 
 //INYECTION DEPENDENCY
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new ContextDbModule(configuration)));
-//builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterType<GlobalVariables>().AsSelf().SingleInstance());
+builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterType<GlobalVariables>().AsSelf().SingleInstance());
 
 
 var app = builder.Build();

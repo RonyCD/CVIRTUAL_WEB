@@ -19,4 +19,9 @@
     <PackageReference Include="System.DirectoryServices" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CVirtual.DataAccess.SQLServer\CVirtual.DataAccess.SQLServer.csproj" />
+    <ProjectReference Include="..\CVirtual.Dto\CVirtual.Dto.csproj" />
+  </ItemGroup>
+
 </Project>

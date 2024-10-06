@@ -1,4 +1,8 @@
 ﻿using Autofac;
+using CVirtual.DataAccess.SQLServer.Context;
+using CVirtual.DataAccess.SQLServer.IQueries;
+using CVirtual.DataAccess.SQLServer.Queries;
+using CVirtual.Domain.Contract;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -21,13 +25,13 @@ namespace CVirtual.CrossCutting
         protected override void Load(ContainerBuilder builder)
         {
             string connectionString = Configuration.GetSection("ConnectionStrings:CVDBContext").Value;
-            string context = "contextSeguridad";
+            string context = "contextSeguridad";    
+            
 
-            //consumimos el API SUC PARA OBTENER CREDENCIALES
+            builder.RegisterType<SeguridadDbContext>().Named<ISeguridadDbContext>(context).WithParameter("connstr", connectionString).InstancePerLifetimeScope();
 
-            //builder.RegisterType<SeguridadDbContext>().Named<ISeguridadDbContext>(context).WithParameter("connstr", connectionString).InstancePerLifetimeScope();
+            builder.RegisterType<CuentaUsuarioQuery>().As<ICuentaUsuarioQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
-            //builder.RegisterType<ComunQuery>().As<IComunQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
             //builder.RegisterType<HistoricoPersonaQuery>().As<IHistoricoPersonaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
@@ -38,17 +42,17 @@ namespace CVirtual.CrossCutting
             //builder.RegisterType<CargaMasivaQuery>().As<ICargaMasivaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
 
-            //builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
-            //    .Where(t => t.Name.EndsWith("Service", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
-            //    .AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
+                .Where(t => t.Name.EndsWith("Service", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
+                .AsImplementedInterfaces();
 
-            //builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
-            //    .Where(t => t.Name.EndsWith("Config", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
-            //    .AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
+                .Where(t => t.Name.EndsWith("Config", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
+                .AsImplementedInterfaces();
 
-            //builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
-            //    .Where(t => t.Name.EndsWith("Security", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
-            //    .AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(Assembly.Load(new AssemblyName("CVirtual.Application")))
+                .Where(t => t.Name.EndsWith("Security", StringComparison.Ordinal) && t.GetTypeInfo().IsClass)
+                .AsImplementedInterfaces();
 
         }
     }
