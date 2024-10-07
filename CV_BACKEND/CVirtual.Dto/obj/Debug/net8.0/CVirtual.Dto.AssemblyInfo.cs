@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVirtual.Dto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94669a8add4e6d752e2a3af36f75ab7998c25972")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVirtual.Dto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVirtual.Dto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

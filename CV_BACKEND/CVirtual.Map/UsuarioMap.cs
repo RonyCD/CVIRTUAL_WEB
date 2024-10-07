@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace CVirtual.Map
 {
-    public class CuentaUsuarioMap : Profile
+    public class UsuarioMap : Profile
     {
-        public CuentaUsuarioMap()
+        public UsuarioMap()
         {
             CreateMap<CVirtualResult, IniciarSesionResponse>();
         }

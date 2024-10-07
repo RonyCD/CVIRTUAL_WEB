@@ -4,18 +4,18 @@ using CVirtual.Dto.CuentaUsuario;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CVirtual.Api.Controllers.V1
+namespace CVirtual.Api.Controllers.V1.CuentaUsuario
 {
-    [Route("api/v1/cuentas-usuarios")]
+    [Route("api/v1/usuario")]
     [ApiController]
-    public class CuentaUsuarioController : BaseCVirtualController
+    public class UsuarioController : BaseCVirtualController
     {
-        private readonly ICuentaUsuarioService _ICuentaUsuarioService;
+        private readonly IUsuarioService _ICuentaUsuarioService;
 
-        public CuentaUsuarioController(ICuentaUsuarioService _Service)
+        public UsuarioController(IUsuarioService iUsuarioService)
         {
-            _ICuentaUsuarioService = _Service;
-        } 
+            _ICuentaUsuarioService = iUsuarioService;
+        }
 
         [HttpPost]
         [Route("iniciar-sesion")]
@@ -30,7 +30,7 @@ namespace CVirtual.Api.Controllers.V1
             if (!_Result.Success)
                 return Unauthorized(new { _Result.Message });
 
-            return Ok(new { _Result.Message, Data = _Result.Data });
+            return Ok(new { _Result.Message, _Result.Data });
         }
     }
 }

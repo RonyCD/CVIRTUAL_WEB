@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen();
 // Mapper
 var mappingConfig = new MapperConfiguration(mc =>
 {
-    mc.AddProfile(new CuentaUsuarioMap());
+    mc.AddProfile(new UsuarioMap());    
 });
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CVirtual.Domain.Entities.CuentaUsuario
 {
-    public class CuentaUsuarioEntity
+    public class UsuarioEntity
     {
         public int Id { get; set; }
         public int IdRol { get; set; }

@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CVirtual.DataAccess.SQLServer.IQueries
+namespace CVirtual.DataAccess.SQLServer.IQueries.Usuario
 {
-    public interface ICuentaUsuarioQuery
-    {       
+    public interface IUsuarioQuery
+    {
 
         Task<IniciarSesionResponse> ValidarUsuario(IniciarSesionRequest _Request);
 

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CVirtual.Application.IServices.CuentaUsuario;
 using CVirtual.Application.IServices.JsonWebToken;
-using CVirtual.DataAccess.SQLServer.IQueries;
+using CVirtual.DataAccess.SQLServer.IQueries.Usuario;
 using CVirtual.Domain.Entities.Comun;
 using CVirtual.Domain.Entities.CuentaUsuario;
 using CVirtual.Dto.Base;
@@ -16,13 +16,13 @@ using System.Threading.Tasks;
 
 namespace CVirtual.Application.Services.CuentaUsuario
 {
-    public class CuentaUsuarioService : ICuentaUsuarioService
+    public class UsuarioService : IUsuarioService
     {
-        private readonly ICuentaUsuarioQuery _ICuentaUsuarioQuery;
+        private readonly IUsuarioQuery _ICuentaUsuarioQuery;
         private readonly IJsonWebTokenService _JsonWebTokenService;
         private readonly IMapper _IMapper;
 
-        public CuentaUsuarioService(ICuentaUsuarioQuery iCuentaUsuarioQuery, IJsonWebTokenService iJsonWebTokenService, IMapper iMapper)
+        public UsuarioService(IUsuarioQuery iCuentaUsuarioQuery, IJsonWebTokenService iJsonWebTokenService, IMapper iMapper)
         {
             _ICuentaUsuarioQuery = iCuentaUsuarioQuery;
             _JsonWebTokenService = iJsonWebTokenService;

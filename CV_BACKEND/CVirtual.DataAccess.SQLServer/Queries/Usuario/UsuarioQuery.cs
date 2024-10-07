@@ -1,5 +1,5 @@
 ﻿using CVirtual.DataAccess.SQLServer.Commands;
-using CVirtual.DataAccess.SQLServer.IQueries;
+using CVirtual.DataAccess.SQLServer.IQueries.Usuario;
 using CVirtual.Domain.Contract;
 using CVirtual.Domain.Entities.Comun;
 using CVirtual.Dto.Base;
@@ -13,19 +13,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace CVirtual.DataAccess.SQLServer.Queries
+namespace CVirtual.DataAccess.SQLServer.Queries.Usuario
 {
-    public class CuentaUsuarioQuery : BaseUnitOfWork, ICuentaUsuarioQuery
+    public class UsuarioQuery : BaseUnitOfWork, IUsuarioQuery
     {
-        public CuentaUsuarioQuery(ISeguridadDbContext context) : base(context, true)
+        public UsuarioQuery(ISeguridadDbContext context) : base(context, true)
         {
 
-        }             
+        }
 
 
         public async Task<IniciarSesionResponse> ValidarUsuario(IniciarSesionRequest _Request)
         {
-            using (SqlConnection cnn = new SqlConnection(this._ctx.SQLCnn()))
+            using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
             {
                 await cnn.OpenAsync();
 

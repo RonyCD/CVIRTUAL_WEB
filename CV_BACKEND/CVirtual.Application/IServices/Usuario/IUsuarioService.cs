@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CVirtual.Application.IServices.CuentaUsuario
 {
-    public interface ICuentaUsuarioService
+    public interface IUsuarioService
     {
         Task<BaseResponse<IniciarSesionResponse>> IniciarSesion(IniciarSesionRequest _Request);
 
