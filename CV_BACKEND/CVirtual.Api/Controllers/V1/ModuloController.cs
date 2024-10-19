@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CVirtual.Api.Controllers.V1
 {
-    [Route("api/modulo")]
+    [Route("api/v1/modulo")]
     [ApiController]
     public class ModuloController : BaseCVirtualController
     {

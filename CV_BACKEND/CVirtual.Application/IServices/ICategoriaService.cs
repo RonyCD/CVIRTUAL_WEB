@@ -13,7 +13,7 @@ namespace CVirtual.Application.IServices
         Task<BaseResponse<CategoriaResponse>> CrearCategoria(CategoriaRequest _Request);
 
         Task<BaseResponse<ICollection<CategoriaResponse>>> ObtenerPorIdCVirtual(int _IdCartaVirtual);
-
+        Task<BaseResponse<ICollection<CategoriaResponse>>> EliminarById(int _IdCategoria);
         Task<BaseResponse<bool>> EditarCategoria(CategoriaEditarRequest _Request);
 
     }

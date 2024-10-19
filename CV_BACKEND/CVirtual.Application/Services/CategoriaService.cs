@@ -5,6 +5,7 @@ using CVirtual.DataAccess.SQLServer.IQueries;
 using CVirtual.Domain.Entities.Categoria;
 using CVirtual.Dto.Base;
 using CVirtual.Dto.Categoria;
+using Microsoft.AspNetCore.Http.HttpResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,16 +66,13 @@ namespace CVirtual.Application.Services
 
             try
             {
-                // Asegúrate de que el IdCategoria se asigna desde _Request
                 var categoriaEntity = _IMapper.Map<CategoriaEditarRequest, CategoriaEditarEntity>(_Request);
 
-                // Si quieres asegurarte de que IdCategoria es correcto
                 if (_Request.IdCategoria <= 0)
                 {
                     throw new Exception("IdCategoria debe ser mayor que cero.");
                 }
 
-                // Ejecutar la edición
                 var result = await _ICategoriaQuery.EditarCategoria(categoriaEntity);
 
                 _BaseResponse.Data = result;
@@ -90,6 +88,36 @@ namespace CVirtual.Application.Services
             return _BaseResponse;
         }
 
+
+        public async Task<BaseResponse<ICollection<CategoriaResponse>>> EliminarById(int _IdCategoria)
+        {
+            var _BaseResponse = new BaseResponse<ICollection<CategoriaResponse>>
+            {
+                Code = "200",
+                Success = true,
+                Data = null,
+                Validations = new List<MessageResponse>()
+            };
+
+            try
+            {                   
+                var resultado = await _ICategoriaQuery.EliminarById(_IdCategoria);
+
+                if (resultado)
+                {
+                    _BaseResponse.Message = "Categoría eliminada exitosamente.";
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                _BaseResponse.Code = "400";
+                _BaseResponse.Success = false;
+                _BaseResponse.Message = "Error: " + ex.Message;
+            }
+
+            return _BaseResponse;
+        }
 
 
         public async Task<BaseResponse<ICollection<CategoriaResponse>>> ObtenerPorIdCVirtual(int _IdCartaVirtual)

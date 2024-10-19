@@ -16,6 +16,9 @@ namespace CVirtual.DataAccess.SQLServer.IQueries
         Task<ICollection<CategoriaEntity>> ObtenerPorIdCVirtual(int _IdCartaVirtual);
 
         Task<bool> EditarCategoria(CategoriaEditarEntity _Request);
+       
+        Task<bool> EliminarById(int idCategoria);
+
 
 
 

@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,8 @@ namespace CVirtual.DataAccess.SQLServer.Queries
         {
 
         }
+
+        
 
         public async Task<CategoriaEntity> CrearCategoria(CategoriaRequest _Request)
         {
@@ -39,19 +42,22 @@ namespace CVirtual.DataAccess.SQLServer.Queries
                     command.Parameters.AddWithValue("@NombreCategoria", _Request.NombreCategoria);
                     command.Parameters.AddWithValue("@DescCategoria", _Request.DescCategoria);
 
-                    await command.ExecuteNonQueryAsync();
+                    //ID_CATEGORIA
+                    var newIdCategoria = (int)await command.ExecuteScalarAsync();
+
+                    var nuevaCategoria = new CategoriaEntity
+                    {
+                        IdCategoria = newIdCategoria,
+                        IdCartaVirtual = _Request.IdCartaVirtual,
+                        NombreCategoria = _Request.NombreCategoria,
+                        DescCategoria = _Request.DescCategoria
+                    };
+
+                    return nuevaCategoria;
                 }
             }
-
-            var nuevaCategoria = new CategoriaEntity
-            {
-                IdCartaVirtual = _Request.IdCartaVirtual,
-                NombreCategoria = _Request.NombreCategoria,
-                DescCategoria = _Request.DescCategoria
-            };
-
-            return nuevaCategoria;
         }
+
 
 
         public async Task<bool> EditarCategoria(CategoriaEditarEntity _Request)
@@ -115,6 +121,34 @@ namespace CVirtual.DataAccess.SQLServer.Queries
 
             return categorias;
         }
+
+
+        public async Task<bool> EliminarById(int _IdCategoria)
+        {
+            bool isDeleted = false;
+
+            using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
+            {
+                await cnn.OpenAsync();
+
+                using (var command = new SqlCommand("SP_CV_API_CATEGORIA_ELIMINAR", cnn))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.AddWithValue("@IdCategoria", _IdCategoria);
+
+                    var result = await command.ExecuteScalarAsync();
+
+                    if (result != null && Convert.ToInt32(result) > 0)
+                    {
+                        isDeleted = true;
+                    }
+                }
+            }
+
+            return isDeleted;
+        }
+
 
     }
 }

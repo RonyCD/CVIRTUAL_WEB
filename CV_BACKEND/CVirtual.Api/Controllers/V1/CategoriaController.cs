@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CVirtual.Api.Controllers.V1
 {
-    [Route("api/categoria")]
+    [Route("api/v1/categoria")]
     [ApiController]
     public class CategoriaController : BaseCVirtualController
     {
@@ -45,12 +45,26 @@ namespace CVirtual.Api.Controllers.V1
         }
 
 
-        [HttpPost]
+        [HttpPut]
         [Route("editar")]
         [Produces("application/json")]
         public async Task<IActionResult> EditarCategoria([FromBody] CategoriaEditarRequest _Request)
         {
             var _Result = await _ICategoriaService.EditarCategoria(_Request);
+
+            if (!_Result.Success)
+                return BadRequest(new { _Result.Message });
+
+            return Ok(_Result);
+        }
+
+
+        [HttpDelete]
+        [Route("eliminar")]
+        [Produces("application/json")]
+        public async Task<IActionResult> EliminarById(int _IdCategoria)
+        {
+            var _Result = await _ICategoriaService.EliminarById(_IdCategoria);
 
             if (!_Result.Success)
                 return BadRequest(new { _Result.Message });

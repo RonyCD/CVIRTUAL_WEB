@@ -26,6 +26,7 @@ var mappingConfig = new MapperConfiguration(mc =>
     mc.AddProfile(new UsuarioMap());
     mc.AddProfile(new ModuloMap());
     mc.AddProfile(new CategoriaMap());
+    mc.AddProfile(new SubcategoriaMap());
 });
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
