@@ -166,24 +166,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rocam\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {}
+    "C:\\Users\\OMAR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\00.Repo_CV_WEB\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\CVirtual.Dto.csproj",
+      "projectUniqueName": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\CVirtual.Dto.csproj",
       "projectName": "CVirtual.Dto",
-      "projectPath": "D:\\00.Repo_CV_WEB\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\CVirtual.Dto.csproj",
-      "packagesPath": "C:\\Users\\rocam\\.nuget\\packages\\",
-      "outputPath": "D:\\00.Repo_CV_WEB\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\obj\\",
+      "projectPath": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\CVirtual.Dto.csproj",
+      "packagesPath": "C:\\Users\\OMAR\\.nuget\\packages\\",
+      "outputPath": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rocam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+        "C:\\Users\\OMAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -191,7 +186,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -204,6 +199,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -235,7 +235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

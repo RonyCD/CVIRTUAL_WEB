@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\V1\Banner\**" />
+    <Compile Remove="Controllers\V1\Promocion\**" />
+    <Compile Remove="Controllers\V1\SubCategoria\**" />
+    <Content Remove="Controllers\V1\Banner\**" />
+    <Content Remove="Controllers\V1\Promocion\**" />
+    <Content Remove="Controllers\V1\SubCategoria\**" />
+    <EmbeddedResource Remove="Controllers\V1\Banner\**" />
+    <EmbeddedResource Remove="Controllers\V1\Promocion\**" />
+    <EmbeddedResource Remove="Controllers\V1\SubCategoria\**" />
+    <None Remove="Controllers\V1\Banner\**" />
+    <None Remove="Controllers\V1\Promocion\**" />
+    <None Remove="Controllers\V1\SubCategoria\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="FluentValidation" Version="11.10.0" />
@@ -31,12 +46,6 @@
     <ProjectReference Include="..\CVirtual.CrossCutting\CVirtual.CrossCutting.csproj" />
     <ProjectReference Include="..\CVirtual.Dto\CVirtual.Dto.csproj" />
     <ProjectReference Include="..\CVirtual.Map\CVirtual.Map.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\V1\Banner\" />
-    <Folder Include="Controllers\V1\SubCategoria\" />
-    <Folder Include="Controllers\V1\Promocion\" />
   </ItemGroup>
 
 </Project>

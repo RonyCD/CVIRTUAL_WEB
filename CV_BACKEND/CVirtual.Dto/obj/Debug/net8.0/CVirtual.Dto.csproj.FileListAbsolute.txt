@@ -23,3 +23,16 @@ D:\00.Repo_CV_WEB\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual
 D:\00.Repo_CV_WEB\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\refint\CVirtual.Dto.dll
 D:\00.Repo_CV_WEB\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.pdb
 D:\00.Repo_CV_WEB\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\ref\CVirtual.Dto.dll
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\bin\Debug\net8.0\CVirtual.Dto.deps.json
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\bin\Debug\net8.0\CVirtual.Dto.dll
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\bin\Debug\net8.0\CVirtual.Dto.pdb
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.csproj.AssemblyReference.cache
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.AssemblyInfoInputs.cache
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.AssemblyInfo.cs
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.csproj.CoreCompileInputs.cache
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.sourcelink.json
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.dll
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\refint\CVirtual.Dto.dll
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\CVirtual.Dto.pdb
+D:\00.CV-.APP\CVIRTUAL_WEB\CV_BACKEND\CVirtual.Dto\obj\Debug\net8.0\ref\CVirtual.Dto.dll

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\imoduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\imoduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 295,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\AdminController.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\AdminController.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\AdminController.cs",
+              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:29:13.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\UsuarioController.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\UsuarioController.cs",
+              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\UsuarioController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:29:02.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\CategoriaService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "CVirtual.Application\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:28:35.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IModuloService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IModuloService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\IModuloService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IModuloService.cs",
+              "RelativeToolTip": "CVirtual.Application\\IServices\\IModuloService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:26:21.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModuloController.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\ModuloController.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\ModuloController.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\ModuloController.cs",
+              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\ModuloController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:25:14.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
+              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:24:45.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,7 @@
 ﻿using Autofac;
 using CVirtual.DataAccess.SQLServer.Context;
-using CVirtual.DataAccess.SQLServer.IQueries.Admin;
-using CVirtual.DataAccess.SQLServer.IQueries.Categoria;
-using CVirtual.DataAccess.SQLServer.IQueries.Modulo;
-using CVirtual.DataAccess.SQLServer.IQueries.Usuario;
-using CVirtual.DataAccess.SQLServer.Queries.Admin;
-using CVirtual.DataAccess.SQLServer.Queries.Categoria;
-using CVirtual.DataAccess.SQLServer.Queries.Modulo;
-using CVirtual.DataAccess.SQLServer.Queries.Usuario;
+using CVirtual.DataAccess.SQLServer.IQueries;
+using CVirtual.DataAccess.SQLServer.Queries;
 using CVirtual.Domain.Contract;
 using Microsoft.Extensions.Configuration;
 using System;
