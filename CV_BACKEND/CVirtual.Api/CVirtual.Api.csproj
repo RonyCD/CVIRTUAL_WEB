@@ -34,10 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\V1\CartaVirtual\" />
-    <Folder Include="Controllers\V1\Modulo\" />
     <Folder Include="Controllers\V1\Banner\" />
-    <Folder Include="Controllers\V1\Categoria\" />
     <Folder Include="Controllers\V1\SubCategoria\" />
     <Folder Include="Controllers\V1\Promocion\" />
   </ItemGroup>

@@ -1,0 +1,44 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* styles.css */
+/* Aplicar Open Sans al body */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+}
+
+/* Clases de peso específicas basadas en la documentación */
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.open-sans-medium {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.open-sans-semibold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.open-sans-extra-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

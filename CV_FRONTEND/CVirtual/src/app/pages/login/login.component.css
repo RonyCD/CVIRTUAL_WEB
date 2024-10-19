@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    background-color: rgb(99, 70, 198);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 1150px;
+    height: 650px;
+    background: transparent;
+    border: 0.3px solid rgba(61, 32, 153, 0.5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.left-section{ 
+    flex: 2; 
+    height: 100%;
+    border-radius: 30px 0px 0px 30px;
+    background-color: rgb(50, 30, 141); 
+}
+
+.right-section {
+    flex: 1.2;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.login-title {
+    font-size: 2rem;
+    color: rgb(50, 30, 141); 
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.login-your-account-title {
+    font-weight: 450;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(50, 30, 141); 
+}
+
+.login-container {
+    padding: 70px;
+    border-radius: 20px;
+    border: 1px solid rgba(50, 30, 141, 0.5);
+    width: 85%;
+    max-width: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 3px;
+    font-size: 1rem;
+    color: #808080; 
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px 0; 
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgba(50, 30, 141, 0.5);
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(50, 30, 141);
+}
+
+button {
+    padding: 8.5px;
+    font-size: 1rem;
+    background-color: rgb(50, 30, 141);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; 
+}
+
+button:hover {
+    background-color: rgb(99, 70, 198);
+}
+
+.forgot-password {
+    align-self: flex-end; 
+    color: rgb(50, 30, 141);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    color: rgb(50, 30, 141);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20px; 
+        border: none; 
+        box-shadow: none; 
+    }
+
+    .left-section {
+        display: none; 
+    }
+
+    .right-section {
+        flex: 1; 
+        padding: 20px; 
+        margin: 0 auto; 
+        max-width: 400px; 
+        border-radius: 20px; 
+        background-color: rgb(255, 255, 255); 
+    }
+
+    .login-container {
+        padding: 20px; 
+        width: 100%; 
+    }
+
+    .login-title {
+        font-size: 1.5rem; 
+    }
+
+    .login-your-account-title {
+        font-size: 1.2rem; 
+    }
+
+    input {
+        padding: 8px 0; 
+    }
+
+    button {
+        padding: 10px; 
+    }
+
+    .forgot-password, .create-account {
+        font-size: 0.8rem; 
+    }
+}

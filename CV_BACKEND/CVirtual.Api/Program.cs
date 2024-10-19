@@ -23,7 +23,9 @@ builder.Services.AddSwaggerGen();
 // Mapper
 var mappingConfig = new MapperConfiguration(mc =>
 {
-    mc.AddProfile(new UsuarioMap());    
+    mc.AddProfile(new UsuarioMap());
+    mc.AddProfile(new ModuloMap());
+    mc.AddProfile(new CategoriaMap());
 });
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);

@@ -27,7 +27,7 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Admin
             {
                 await cnn.OpenAsync();
 
-                using (var command = new SqlCommand("SP_CV_API_CREAR_USUARIO", cnn))
+                using (var command = new SqlCommand("SP_CV_API_USUARIO_CREAR", cnn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
 
@@ -57,7 +57,7 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Admin
             {
                 await cnn.OpenAsync();
 
-                using (var command = new SqlCommand("SP_CV_API_CREAR_CLIENTE", cnn))
+                using (var command = new SqlCommand("SP_CV_API_CLIENTE_CREAR", cnn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
 

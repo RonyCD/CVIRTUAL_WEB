@@ -1,8 +1,12 @@
 ﻿using Autofac;
 using CVirtual.DataAccess.SQLServer.Context;
 using CVirtual.DataAccess.SQLServer.IQueries.Admin;
+using CVirtual.DataAccess.SQLServer.IQueries.Categoria;
+using CVirtual.DataAccess.SQLServer.IQueries.Modulo;
 using CVirtual.DataAccess.SQLServer.IQueries.Usuario;
 using CVirtual.DataAccess.SQLServer.Queries.Admin;
+using CVirtual.DataAccess.SQLServer.Queries.Categoria;
+using CVirtual.DataAccess.SQLServer.Queries.Modulo;
 using CVirtual.DataAccess.SQLServer.Queries.Usuario;
 using CVirtual.Domain.Contract;
 using Microsoft.Extensions.Configuration;
@@ -34,6 +38,8 @@ namespace CVirtual.CrossCutting
 
             builder.RegisterType<UsuarioQuery>().As<IUsuarioQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
             builder.RegisterType<AdminQuery>().As<IAdminQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
+            builder.RegisterType<ModuloQuery>().As<IModuloQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
+            builder.RegisterType<CategoriaQuery>().As<ICategoriaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
 
             //builder.RegisterType<HistoricoPersonaQuery>().As<IHistoricoPersonaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));

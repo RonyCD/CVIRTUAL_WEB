@@ -29,7 +29,7 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Usuario
             {
                 await cnn.OpenAsync();
 
-                using (var command = new SqlCommand("SP_CV_API_VALIDAR_USUARIO", cnn))
+                using (var command = new SqlCommand("SP_CV_API_USUARIO_VALIDAR", cnn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
                     command.Parameters.AddWithValue("@username", _Request.Username);
