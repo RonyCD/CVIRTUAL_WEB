@@ -25,7 +25,7 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Categoria
 
         }
 
-        public async Task<CategoriaEntity> CrearCategoria(CategoriaRequest request)
+        public async Task<CategoriaEntity> CrearCategoria(CategoriaRequest _Request)
         {
             using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
             {
@@ -35,9 +35,9 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Categoria
                 {
                     command.CommandType = CommandType.StoredProcedure;
                     
-                    command.Parameters.AddWithValue("@IdCartaVirtual", request.IdCartaVirtual);
-                    command.Parameters.AddWithValue("@NombreCategoria", request.NombreCategoria);
-                    command.Parameters.AddWithValue("@DescCategoria", request.DescCategoria);
+                    command.Parameters.AddWithValue("@IdCartaVirtual", _Request.IdCartaVirtual);
+                    command.Parameters.AddWithValue("@NombreCategoria", _Request.NombreCategoria);
+                    command.Parameters.AddWithValue("@DescCategoria", _Request.DescCategoria);
              
                     await command.ExecuteNonQueryAsync();
                 }
@@ -45,12 +45,74 @@ namespace CVirtual.DataAccess.SQLServer.Queries.Categoria
             
             var nuevaCategoria = new CategoriaEntity
             {   
-                IdCartaVirtual = request.IdCartaVirtual,
-                NombreCategoria = request.NombreCategoria,
-                DescCategoria = request.DescCategoria
+                IdCartaVirtual = _Request.IdCartaVirtual,
+                NombreCategoria = _Request.NombreCategoria,
+                DescCategoria = _Request.DescCategoria
             };
 
             return nuevaCategoria;
+        }
+
+
+        public async Task<bool> EditarCategoria(CategoriaEditarEntity _Request)
+        {
+            using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
+            {
+                await cnn.OpenAsync();
+
+                using (var command = new SqlCommand("SP_CV_API_CATEGORIA_EDITAR", cnn))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.AddWithValue("@IdCategoria", _Request.IdCategoria);
+                    command.Parameters.AddWithValue("@NombreCategoria", _Request.NombreCategoria);
+                    command.Parameters.AddWithValue("@DescCategoria", _Request.DescCategoria);
+
+                    //var rowsAffected = await command.ExecuteNonQueryAsync();
+                    var rowsAffected = (int)await command.ExecuteScalarAsync();
+
+                    return rowsAffected > 0;
+                }
+            }
+        }      
+
+
+
+
+        public async Task<ICollection<CategoriaEntity>> ObtenerPorIdCVirtual(int _IdCartaVirtual)
+        {
+            var categorias = new List<CategoriaEntity>();
+
+            using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
+            {
+                await cnn.OpenAsync();
+
+                using (var command = new SqlCommand("SP_CV_API_CATEGORIA_OBTENER", cnn))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    
+                    command.Parameters.AddWithValue("@IdCartaVirtual", _IdCartaVirtual);
+
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        
+                        while (await reader.ReadAsync())
+                        {
+                            var categoria = new CategoriaEntity                            {
+
+                                IdCategoria = reader.GetInt32(reader.GetOrdinal("ID_CATEGORIA")),
+                                IdCartaVirtual = reader.GetInt32(reader.GetOrdinal("ID_CARTA_VIRTUAL")),
+                                NombreCategoria = reader.GetString(reader.GetOrdinal("NOMBRE_CATEGORIA")),
+                                DescCategoria = reader.GetString(reader.GetOrdinal("DESC_CATEGORIA"))
+                            };
+
+                            categorias.Add(categoria);
+                        }
+                    }
+                }
+            }
+
+            return categorias;
         }
 
     }
