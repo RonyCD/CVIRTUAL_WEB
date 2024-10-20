@@ -3,40 +3,84 @@
   "WorkspaceRootPath": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\queries\\bannerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\queries\\bannerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\queries\\subcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\queries\\subcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\isubcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\isubcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\subcategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\queries\\categoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\queries\\categoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\iqueries\\isubcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\iqueries\\isubcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\iqueries\\ibannerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\iqueries\\ibannerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\iqueries\\icategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\iqueries\\icategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\ibannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\ibannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\controllers\\v1\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\controllers\\v1\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DECAB3-6F5E-4432-A4FC-A9A16A8E2595}|CVirtual.Map\\CVirtual.Map.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.map\\bannermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DECAB3-6F5E-4432-A4FC-A9A16A8E2595}|CVirtual.Map\\CVirtual.Map.csproj|solutionrelative:cvirtual.map\\bannermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAD6CD9-2D74-423C-9F74-F49E82FAED3A}|CVirtual.Api\\CVirtual.Api.csproj|solutionrelative:cvirtual.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA59205E-1F7B-495A-9336-742609C6E376}|CVirtual.CrossCutting\\CVirtual.CrossCutting.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.crosscutting\\contextdbmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA59205E-1F7B-495A-9336-742609C6E376}|CVirtual.CrossCutting\\CVirtual.CrossCutting.csproj|solutionrelative:cvirtual.crosscutting\\contextdbmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DECAB3-6F5E-4432-A4FC-A9A16A8E2595}|CVirtual.Map\\CVirtual.Map.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.map\\modulomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DECAB3-6F5E-4432-A4FC-A9A16A8E2595}|CVirtual.Map\\CVirtual.Map.csproj|solutionrelative:cvirtual.map\\modulomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dataaccess.sqlserver\\iqueries\\isubcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C918DD56-E9FB-48DC-89FE-7B3D9425E49F}|CVirtual.DataAccess.SQLServer\\CVirtual.DataAccess.SQLServer.csproj|solutionrelative:cvirtual.dataaccess.sqlserver\\iqueries\\isubcategoriaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\services\\subcategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.application\\iservices\\imoduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45C374-C646-44C3-899E-97782045C493}|CVirtual.Application\\CVirtual.Application.csproj|solutionrelative:cvirtual.application\\iservices\\imoduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EBCE70F-D927-4383-9E7B-AECCCEAE9A85}|CVirtual.Dto\\CVirtual.Dto.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.dto\\banner\\bannerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EBCE70F-D927-4383-9E7B-AECCCEAE9A85}|CVirtual.Dto\\CVirtual.Dto.csproj|solutionrelative:cvirtual.dto\\banner\\bannerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75E3AB3-00EF-4282-B406-3B95FC82FFFA}|CVirtual.Domain\\CVirtual.Domain.csproj|d:\\00.cv-.app\\cvirtual_web\\cv_backend\\cvirtual.domain\\entities\\banner\\bannerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B75E3AB3-00EF-4282-B406-3B95FC82FFFA}|CVirtual.Domain\\CVirtual.Domain.csproj|solutionrelative:cvirtual.domain\\entities\\banner\\bannerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,124 +89,267 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 733,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 1111,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\CategoriaService.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "CVirtual.Application\\Services\\CategoriaService.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowJIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:15:57.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICategoriaService.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ICategoriaService.cs",
-              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\ICategoriaService.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ICategoriaService.cs",
-              "RelativeToolTip": "CVirtual.Application\\IServices\\ICategoriaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:13:09.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISubcategoriaService.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ISubcategoriaService.cs",
-              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\ISubcategoriaService.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ISubcategoriaService.cs",
-              "RelativeToolTip": "CVirtual.Application\\IServices\\ISubcategoriaService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:09:44.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubcategoriaService.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\SubcategoriaService.cs",
-              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\SubcategoriaService.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\SubcategoriaService.cs",
-              "RelativeToolTip": "CVirtual.Application\\Services\\SubcategoriaService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAIAywE4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:09:39.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "SubcategoriaQuery.cs",
               "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\SubcategoriaQuery.cs",
               "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\Queries\\SubcategoriaQuery.cs",
               "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\SubcategoriaQuery.cs",
               "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\Queries\\SubcategoriaQuery.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAUwFEAAABTAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:39:37.068Z",
+              "WhenOpened": "2024-10-20T00:03:07.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CategoriaQuery.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
-              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
-              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAkwHoAAAAJAAAA",
+              "Title": "BannerService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\BannerService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\BannerService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\BannerService.cs",
+              "RelativeToolTip": "CVirtual.Application\\Services\\BannerService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAowDoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:39:22.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ISubcategoriaQuery.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
-              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
-              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:38:45.421Z",
+              "WhenOpened": "2024-10-19T23:28:55.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SubcategoriaController.cs",
-              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\SubcategoriaController.cs",
-              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\SubcategoriaController.cs",
-              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\SubcategoriaController.cs",
-              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\SubcategoriaController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAABBAAAA",
+              "Title": "ICategoriaQuery.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ICategoriaQuery.cs",
+              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\IQueries\\ICategoriaQuery.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ICategoriaQuery.cs",
+              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\IQueries\\ICategoriaQuery.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:36:31.084Z",
+              "WhenOpened": "2024-10-19T23:30:17.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBannerQuery.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\IBannerQuery.cs",
+              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\IQueries\\IBannerQuery.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\IBannerQuery.cs",
+              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\IQueries\\IBannerQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:30:09.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaQuery.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
+              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
+              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\Queries\\CategoriaQuery.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAkwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:31:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BannerQuery.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\BannerQuery.cs",
+              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\Queries\\BannerQuery.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\Queries\\BannerQuery.cs",
+              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\Queries\\BannerQuery.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwGYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:30:59.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BannerController.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\BannerController.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\BannerController.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\BannerController.cs",
+              "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\BannerController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:19:06.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\CategoriaService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "CVirtual.Application\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwJMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:29:09.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IBannerService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IBannerService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\IBannerService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IBannerService.cs",
+              "RelativeToolTip": "CVirtual.Application\\IServices\\IBannerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:27:36.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\ICategoriaService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\ICategoriaService.cs",
+              "RelativeToolTip": "CVirtual.Application\\IServices\\ICategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:27:57.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
               "RelativeDocumentMoniker": "CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
               "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
               "RelativeToolTip": "CVirtual.Api\\Controllers\\V1\\CategoriaController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAAAJAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:35:39.716Z",
+              "WhenOpened": "2024-10-19T23:57:01.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BannerMap.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Map\\BannerMap.cs",
+              "RelativeDocumentMoniker": "CVirtual.Map\\BannerMap.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Map\\BannerMap.cs",
+              "RelativeToolTip": "CVirtual.Map\\BannerMap.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:50:56.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISubcategoriaQuery.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
+              "RelativeDocumentMoniker": "CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
+              "RelativeToolTip": "CVirtual.DataAccess.SQLServer\\IQueries\\ISubcategoriaQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:47:50.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CVirtual.Api\\Program.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Api\\Program.cs",
+              "RelativeToolTip": "CVirtual.Api\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:50:40.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ModuloMap.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Map\\ModuloMap.cs",
+              "RelativeDocumentMoniker": "CVirtual.Map\\ModuloMap.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Map\\ModuloMap.cs",
+              "RelativeToolTip": "CVirtual.Map\\ModuloMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:51:01.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContextDbModule.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.CrossCutting\\ContextDbModule.cs",
+              "RelativeDocumentMoniker": "CVirtual.CrossCutting\\ContextDbModule.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.CrossCutting\\ContextDbModule.cs",
+              "RelativeToolTip": "CVirtual.CrossCutting\\ContextDbModule.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:53:00.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SubcategoriaService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\SubcategoriaService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\Services\\SubcategoriaService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\Services\\SubcategoriaService.cs",
+              "RelativeToolTip": "CVirtual.Application\\Services\\SubcategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:29:13.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IModuloService.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IModuloService.cs",
+              "RelativeDocumentMoniker": "CVirtual.Application\\IServices\\IModuloService.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Application\\IServices\\IModuloService.cs",
+              "RelativeToolTip": "CVirtual.Application\\IServices\\IModuloService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:27:49.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BannerRequest.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\Banner\\BannerRequest.cs",
+              "RelativeDocumentMoniker": "CVirtual.Dto\\Banner\\BannerRequest.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Dto\\Banner\\BannerRequest.cs",
+              "RelativeToolTip": "CVirtual.Dto\\Banner\\BannerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:27:03.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BannerEntity.cs",
+              "DocumentMoniker": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Domain\\Entities\\Banner\\BannerEntity.cs",
+              "RelativeDocumentMoniker": "CVirtual.Domain\\Entities\\Banner\\BannerEntity.cs",
+              "ToolTip": "D:\\00.CV-.APP\\CVIRTUAL_WEB\\CV_BACKEND\\CVirtual.Domain\\Entities\\Banner\\BannerEntity.cs",
+              "RelativeToolTip": "CVirtual.Domain\\Entities\\Banner\\BannerEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:26:42.259Z",
               "EditorCaption": ""
             }
           ]

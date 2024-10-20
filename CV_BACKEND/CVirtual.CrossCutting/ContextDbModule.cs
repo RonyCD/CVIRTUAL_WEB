@@ -35,6 +35,7 @@ namespace CVirtual.CrossCutting
             builder.RegisterType<ModuloQuery>().As<IModuloQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
             builder.RegisterType<CategoriaQuery>().As<ICategoriaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
             builder.RegisterType<SubcategoriaQuery>().As<ISubcategoriaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
+            builder.RegisterType<BannerQuery>().As<IBannerQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));
 
 
             //builder.RegisterType<HistoricoPersonaQuery>().As<IHistoricoPersonaQuery>().WithParameter((c, p) => true, (c, p) => p.ResolveNamed<ISeguridadDbContext>(context));

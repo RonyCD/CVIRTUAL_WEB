@@ -16,7 +16,7 @@ namespace CVirtual.Api.Controllers.V1
             _IModuloService = iModuloService;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("listar")]
         [Produces("application/json")]
         public IActionResult ListarModulos()

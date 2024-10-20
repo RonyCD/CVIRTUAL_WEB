@@ -1,4 +1,5 @@
 ﻿using CVirtual.Application.IServices;
+using CVirtual.Application.Services;
 using CVirtual.Domain.Entities.Categoria;
 using CVirtual.Dto.Categoria;
 using Microsoft.AspNetCore.Http;
@@ -71,8 +72,6 @@ namespace CVirtual.Api.Controllers.V1
 
             return Ok(_Result);
         }
-
-
 
 
 
