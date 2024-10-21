@@ -13,5 +13,7 @@ namespace CVirtual.Application.IServices
         Task<BaseResponse<BannerResponse>> AgregarBanner(BannerRequest _Request);
         Task<BaseResponse<ICollection<BannerResponse>>> ObtenerPorIdCVirtual(int _IdCartaVirtual);
 
+        Task<BaseResponse<ICollection<BannerResponse>>> EliminarBanner(int _IdBanner);
+
     }
 }

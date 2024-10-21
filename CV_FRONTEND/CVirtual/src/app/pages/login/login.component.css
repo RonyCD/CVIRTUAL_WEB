@@ -7,30 +7,23 @@
     font-family: "Poppins", sans-serif;
 }
 
-html{
-    background-color: rgb(99, 70, 198);
-}
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;    
-    background-size: cover;
-    background-position: center;
-}
-
 .wrapper {
     display: flex;
-    width: 1150px;
-    height: 650px;
+    width: 1000px;
+    height: 600px;
     background: transparent;
-    border: 0.3px solid rgba(61, 32, 153, 0.5);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
-    border-radius: 30px;
+    border-radius: 20px;
+    justify-content: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 .left-section{ 
     flex: 2; 
@@ -44,11 +37,11 @@ body{
     height: 100%;
     border-radius: 0px 30px 30px 0px;
     background-color: rgb(255, 255, 255);
-    padding: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
 }
 
@@ -59,32 +52,36 @@ body{
     align-self: flex-start;
 }
 
-.login-your-account-title {
+
+.login-card {
     font-weight: 450;
     margin-bottom: 30px;
     font-size: 20px;
-    color: rgb(50, 30, 141); 
+    color: rgb(50, 30, 141);
+    align-self: center;
 }
 
 .login-container {
-    padding: 70px;
+    padding: 40px;
     border-radius: 20px;
-    border: 1px solid rgba(50, 30, 141, 0.5);
+    border: 1px solid #e7e7e7;
     width: 85%;
     max-width: none;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;    
 }
 
 form {
     display: flex;
     flex-direction: column;
+    
 }
 
 label {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     font-size: 1rem;
     color: #808080; 
 }
@@ -96,33 +93,19 @@ input {
     border: none;
     border-bottom: 1px solid rgba(50, 30, 141, 0.5);
     outline: none;
+    width: 100%;
 }
 
 input:focus {
     border-bottom: 2px solid rgb(50, 30, 141);
 }
 
-button {
-    padding: 8.5px;
-    font-size: 1rem;
-    background-color: rgb(50, 30, 141);
-    color: white;
-    border: none;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-bottom: 10px; 
-}
-
-button:hover {
-    background-color: rgb(99, 70, 198);
-}
 
 .forgot-password {
     align-self: flex-end; 
     color: rgb(50, 30, 141);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 20px;
 }
 
@@ -130,18 +113,8 @@ button:hover {
     text-decoration: underline;
 }
 
-.create-account {
-    color: rgb(50, 30, 141);
-    text-decoration: none;
-    font-size: 0.9rem;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-}
 
-.create-account:hover {
-    text-decoration: underline;
-}
+
 
 @media (max-width: 768px) {
     .wrapper {
@@ -179,14 +152,7 @@ button:hover {
         font-size: 1.2rem; 
     }
 
-    input {
-        padding: 8px 0; 
-    }
-
-    button {
-        padding: 10px; 
-    }
-
+    
     .forgot-password, .create-account {
         font-size: 0.8rem; 
     }

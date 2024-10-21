@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using CVirtual.Application.IServices;
 using CVirtual.DataAccess.SQLServer.IQueries;
-using CVirtual.DataAccess.SQLServer.Queries;
 using CVirtual.Domain.Entities.Banner;
-using CVirtual.Domain.Entities.Categoria;
 using CVirtual.Dto.Banner;
 using CVirtual.Dto.Base;
 using CVirtual.Dto.Categoria;
@@ -52,6 +50,38 @@ namespace CVirtual.Application.Services
 
             return _BaseResponse;
         }
+
+        public async Task<BaseResponse<ICollection<BannerResponse>>> EliminarBanner(int _IdBanner)
+        {
+            var _BaseResponse = new BaseResponse<ICollection<BannerResponse>>
+            {
+                Code = "200",
+                Success = true,
+                Data = null,
+                Validations = new List<MessageResponse>()
+            };
+
+            try
+            {
+                var resultado = await _IBannerQuery.EliminarBanner(_IdBanner);
+
+                if (resultado)
+                {
+                    _BaseResponse.Message = "Banner eliminada exitosamente.";
+                }
+
+            }
+            catch (Exception ex)
+            {
+                _BaseResponse.Code = "400";
+                _BaseResponse.Success = false;
+                _BaseResponse.Message = "Error: " + ex.Message;
+            }
+
+            return _BaseResponse;
+        }
+
+        
 
 
         public async Task<BaseResponse<ICollection<BannerResponse>>> ObtenerPorIdCVirtual(int _IdCartaVirtual)

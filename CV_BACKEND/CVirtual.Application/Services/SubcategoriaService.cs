@@ -137,7 +137,7 @@ namespace CVirtual.Application.Services
 
                 if (resultado)
                 {
-                    _BaseResponse.Message = "Categoría eliminada exitosamente.";
+                    _BaseResponse.Message = "Subcategoría eliminada exitosamente.";
                 }
 
             }

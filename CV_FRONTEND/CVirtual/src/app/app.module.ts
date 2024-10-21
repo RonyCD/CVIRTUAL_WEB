@@ -3,21 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LayoutComponent } from './pages/layout/layout.component';
 import { LoginComponent } from './pages/login/login.component';
-import { MaterialModule } from './core/material/material.module';
+import { PrimengModule } from './core/material/primeng.module';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { FormsModule } from '@angular/forms';
+import { LayoutModule } from './pages/layout/layout.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
     LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule,
+    PrimengModule,
+    FormsModule,
+    LayoutModule
     
   ],
   providers: [

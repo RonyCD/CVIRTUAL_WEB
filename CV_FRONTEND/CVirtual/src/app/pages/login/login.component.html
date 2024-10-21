@@ -1,31 +1,52 @@
 <div class="wrapper">
-
     <div class="left-section">
-
+        <!-- Puedes agregar contenido adicional aquí -->
     </div>
 
     <div class="right-section">
-        <h2 class="login-title"> Hello! <br> Good Morning </h2>
+        <h2 class="login-title"> Hola! <span style="color: #808080;">Buen día</span> </h2>
         <div class="login-container">
-            <form>
-                <h2 class="login-your-account-title">
-                    Login <span style="color: #808080;">your account</span>
+            <form (ngSubmit)="login()">
+                <h2 class="login-card">
+                    Ingresa <span style="color: #808080;">tu cuenta</span>
                 </h2>
+
                 
-                <input type="text" id="username" name="username" placeholder="User">
-                
-                
-                <input type="password" id="password" name="password" placeholder="Password">
-                
+                <div class="p-field">
+                    <label for="username">Usuario</label>
+                    <input                        
+                        type="text"
+                        id="username"
+                        name="username"
+                        [(ngModel)]="username"
+                    />
+                </div>
+
+                <!-- Campo de entrada para la contraseña -->
+                <div class="p-field">
+                    <label for="password">Contraseña</label>
+                    <input
+                        feedback="false"
+                        inputId="password"
+                        type="password"
+                        id="password"
+                        name="password"
+                        [(ngModel)]="password"
+                    />
+                </div>
+
                 <!-- Enlace de "Forgot Password" -->
-                <a href="#" class="forgot-password">forget Password?</a>
+                <a href="#" class="forgot-password" style="color: #3f51b5;">Olvidó su contraseña?</a>
+
+                <!-- Botón de inicio de sesión -->
+                <div class="button-container" >
+                    <p-button label="Ingresar" (click)="login()" styleClass="login-button"></p-button>
+                </div>
                 
-                <button type="submit">Login</button>
             </form>
-    
-            <!-- Enlace de "Crear cuenta" -->
-            <a href="#" class="create-account">create account</a>
+            
+
         </div>
     </div>
-    
 </div>
+

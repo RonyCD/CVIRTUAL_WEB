@@ -12,5 +12,8 @@ namespace CVirtual.DataAccess.SQLServer.IQueries
     {
         Task<BannerEntity> AgregarBanner(BannerRequest _Request);
         Task<ICollection<BannerEntity>> ObtenerPorIdCVirtual(int _IdCartaVirtual);
+
+        Task<bool> EliminarBanner(int _IdBanner);
+
     }
 }

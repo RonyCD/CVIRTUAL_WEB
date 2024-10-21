@@ -61,6 +61,33 @@ namespace CVirtual.DataAccess.SQLServer.Queries
             return bannerEntity;
         }
 
+        public async Task<bool> EliminarBanner(int _IdBanner)
+        {
+            bool isDeleted = false;
+
+            using (SqlConnection cnn = new SqlConnection(_ctx.SQLCnn()))
+            {
+                await cnn.OpenAsync();
+
+                using (var command = new SqlCommand("SP_CV_API_BANNER_ELIMINAR", cnn))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.AddWithValue("@IdBanner", _IdBanner);
+
+                    var result = await command.ExecuteScalarAsync();
+
+                    if (result != null && Convert.ToInt32(result) > 0)
+                    {
+                        isDeleted = true;
+                    }
+                }
+            }
+
+            return isDeleted;
+        }
+
+
 
         public async Task<ICollection<BannerEntity>> ObtenerPorIdCVirtual(int _IdCartaVirtual)
         {

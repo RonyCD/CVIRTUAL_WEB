@@ -43,5 +43,19 @@ namespace CVirtual.Api.Controllers.V1
 
             return Ok(_Result);
         }
+
+
+        [HttpDelete]
+        [Route("eliminar")]
+        [Produces("application/json")]
+        public async Task<IActionResult> EliminarBanner(int _IdBanner)
+        {
+            var _Result = await _IBannerService.EliminarBanner(_IdBanner);
+
+            if (!_Result.Success)
+                return BadRequest(new { _Result.Message });
+
+            return Ok(_Result);
+        }
     }
 }
